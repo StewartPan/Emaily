@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "v6.11.4",
+    "node": "8.1.1",
     "npm": "5.5.1"
   },
   "scripts": {
@@ -14,7 +14,7 @@
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild":
-      "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+      "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix clien
   },
   "author": "",
   "license": "ISC",
